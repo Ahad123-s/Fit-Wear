@@ -40,19 +40,26 @@ p {
     margin-right: 10px;
 }
 
-/* Images responsive */
-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
 /* Image container */
 #imgs {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 15px;
+}
+
+/* Images responsive */
+#imgs img {
+    width: 30%;        /* 3 images per row on large screens */
+    max-width: 300px;  /* prevents oversized images */
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+/* Hover effect for images */
+#imgs img:hover {
+    transform: scale(1.05);
 }
 
 /* Lists */
@@ -106,8 +113,14 @@ hr {
         font-size: 14px;
     }
 
+    /* Stack images vertically on mobile */
     #imgs {
         flex-direction: column;
         align-items: center;
+    }
+
+    #imgs img {
+        width: 90%;   /* full width on mobile */
+        max-width: none;
     }
 }
