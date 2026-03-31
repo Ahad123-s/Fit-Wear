@@ -1,126 +1,76 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
+body{
     background: #4d004b;
     color: white;
     font-family: "Zalando Sans Expanded", sans-serif;
-    margin: 0;
 }
-
-/* Container spacing */
-main {
-    padding: 10px;
+hr{
+    border: white solid 3px;
 }
-
-/* Headings */
-h1 {
+h1{
     font-family: 'Boldonse', sans-serif;
     color: khaki;
     text-align: center;
-    font-size: 28px;
 }
-
-h2 {
+h2{
     font-family: 'Boldonse', sans-serif;
     color: khaki;
+    padding-left: 1px;
 }
-
-/* Text */
-#top {
+#top{
     text-align: center;
-    font-size: 14px;
-    line-height: normal;
+    font-size: 16px;
+    line-height: 0.1px;
 }
-
-p {
-    line-height: 24px;
-    margin-left: 10px;
-    margin-right: 10px;
+p{
+    line-height: 25px;
+    margin-left: 20px;
 }
-
-/* Image container */
-#imgs {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
+details{
+    margin-left: 20px;
 }
-
-/* Images responsive */
-#imgs img {
-    width: 30%;        /* 3 images per row on large screens */
-    max-width: 300px;  /* prevents oversized images */
-    height: auto;
-    border-radius: 8px;
-    transition: transform 0.3s;
-}
-
-/* Hover effect for images */
-#imgs img:hover {
-    transform: scale(1.05);
-}
-
-/* Lists */
-#unique {
+a{
     color: khaki;
 }
-
-/* Footer */
-footer {
+a:hover{
+    color: white; 
+    
+}
+#unique{
+        color: khaki;
+}
+button{
+    margin-left: 5px;
     text-align: center;
-    padding: 10px;
-    font-size: 14px;
 }
-
-/* Buttons */
-button {
-    margin: 5px;
-}
-
-/* Links */
-a {
-    color: khaki;
-}
-
-a:hover {
+#aa:hover{
     color: white;
 }
-
-/* Back to top */
-#back {
+#bb:hover{
+    color: white;
+}
+#cc:hover{
+    color: white;
+}
+#dd:hover{
+    color: white;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+#back{
+   text-align: center;
+}
+img{
+    vertical-align: middle;
+}
+#imgs{
     text-align: center;
 }
-
-/* HR */
-hr {
-    border: white solid 2px;
+figcaption{
+    text-align: center;
 }
-
-/* 📱 MOBILE MEDIA QUERY */
-@media (max-width: 768px) {
-
-    h1 {
-        font-size: 22px;
-    }
-
-    h2 {
-        font-size: 18px;
-    }
-
-    p {
-        font-size: 14px;
-    }
-
-    /* Stack images vertically on mobile */
-    #imgs {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #imgs img {
-        width: 90%;   /* full width on mobile */
-        max-width: none;
-    }
+#imgs img:hover {
+    transform: scale(1.05);
 }
