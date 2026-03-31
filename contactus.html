@@ -1,91 +1,87 @@
-<!DOCTYPE html>
+<!DOCTYPE>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="author" content="Aahad Munir">
-    <meta name="description" content="Practice for coding languages I learnt till yet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name="Authour" content="Aahad Munir">
+    <meta name="discription" content="Practice for coding languages I learnt till yet">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Boldonse&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Boldonse&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap">
     <link rel="icon" href="images/icon.png" type="image/x-icon">
 
-    <title>Fit Wear</title>
-</head>
 
+    <title> Fit Wear</title>
+
+</head>
 <body>
     <main>
 
-        <h2>Contact Us:</h2>
-
+        <ul>
+            <li> <h2>Contact Us:</h2></li>
+        </ul>
         <ol>
-            <li>Our <a href="https://x.com/Abdulahad1473" target="_blank">Twitter</a> Profile</li>
-            <li>Our <a href="https://www.linkedin.com/in/aahad-munir-a45ab2311/" target="_blank">LinkedIn</a> Profile</li>
-            <li>Our <a href="mailto:ahadmunir623@gmail.com">Email</a></li>
+            <li> Our <a href="https://x.com/Abdulahad1473" target="_blank"> Twitter</a> Profile</li>
+            <li> Our <a href="https://www.linkedin.com/in/aahad-munir-a45ab2311/" target="_blank"> LinkedIn</a> Profile</li>
+            <li> Our <a href="mailto:ahadmunir623@gmail.com" target="_blank"> Email</a></li>
         </ol>
-
-        <h2>Contact Us through our socials or fill the form below:</h2>
+        <ul> 
+        <li><h2> Contact Us through Our Socials or fill form below: </h2></li>
+        </ul>
 
         <section>
             <form action="https://httpbin.org/get" method="get">
                 <fieldset>
-                    <legend>Your Login Info:</legend>
+                    <legend> Your Login Info:</legend>
+                <p>
+                    <label for="name"> Enter Your name: </label>
+                    <input type="text" name="name" id="name" placeholder="Aahad Munir" required>
+                </p>
+                <p>
+                    <label for="password"> Enter your password: </label>
+                    <input type="password" name="password" id="password"  required>
+                </p>
+                <p>
+                    <label for="age"> Enter Your age: </label>
+                    <input type="number" name="age" id="age" step="1" value="18" required>
+                </p>
+                <p>
+                    <label for="experiance"> Your Experiance with Us: </label>
+                    <select name="experiance" id="experiance" required>
+                        <option value="Excellent"> Excellent</option>
+                        <option value="Good"> Good</option>
+                        <option value="average"> Average</option>
+                        <option value="Not Good"> Not Good</option>
+                        <option value="not"> Not tried yet</option>
 
-                    <p>
-                        <label for="name">Enter Your Name:</label><br>
-                        <input type="text" name="name" id="name" placeholder="Aahad Munir" required>
-                    </p>
-
-                    <p>
-                        <label for="password">Enter Your Password:</label><br>
-                        <input type="password" name="password" id="password" required>
-                    </p>
-
-                    <p>
-                        <label for="age">Enter Your Age:</label><br>
-                        <input type="number" name="age" id="age" step="1" value="18" required>
-                    </p>
-
-                    <p>
-                        <label for="experience">Your Experience with Us:</label><br>
-                        <select name="experience" id="experience" required>
-                            <option value="Excellent">Excellent</option>
-                            <option value="Good">Good</option>
-                            <option value="Average">Average</option>
-                            <option value="Not Good">Not Good</option>
-                            <option value="Not Tried">Not tried yet</option>
-                        </select>
-                    </p>
+                    </select>
+                </p>
                 </fieldset>
-
                 <br>
-
                 <fieldset>
-                    <legend>Tell more about your experience:</legend>
-                    <textarea name="message" id="message" rows="5" placeholder="Write your message here..."></textarea>
+                    <legend> Tell more regarding your experiance: </legend>
+                    <br>
+                    <textarea name="message" id="message" rows="5" cols="50" placeholder=" Write your message here..."></textarea>
                 </fieldset>
-
                 <br>
+                <button type="submit" class="voltage-button"> Submit</button>
+                <button type="reset"> Reset </button>
 
-                <button type="submit">Submit</button>
-                <button type="reset">Reset</button>
+
+
+
             </form>
         </section>
 
         <hr>
-
         <section>
-            <address>Location: Plot 15, Commercial Market, Rawalpindi, Pakistan</address>
+            <address> Location: Plot 15,Commercial market Rawalpindi, Pakistan</address>
         </section>
 
         <footer>
-            <p>&copy; 2026 Fit Wears | All rights reserved | Designed by 
-                <a href="https://my-portfolio-two-henna-24.vercel.app/" target="_blank">Aahad Munir</a>
-            </p>
+        <p>&copy; 2026 Fit Wears | All rights reserved | Designed by <a href="https://my-portfolio-two-henna-24.vercel.app/" target="_blank"> Aahad Munir</a></p>
         </footer>
-
     </main>
 </body>
 
