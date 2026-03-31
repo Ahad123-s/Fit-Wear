@@ -1,0 +1,73 @@
+body{
+    background: #4d004b;
+    color: white;
+    font-family: "Zalando Sans Expanded", sans-serif;
+}
+hr{
+    border: white solid 3px;
+}
+h1{
+    font-family: 'Boldonse', sans-serif;
+    color: khaki;
+    text-align: center;
+}
+h2{
+    font-family: 'Boldonse', sans-serif;
+    color: khaki;
+    padding-left: 1px;
+}
+#top{
+    text-align: center;
+    font-size: 16px;
+    line-height: 0.1px;
+}
+p{
+    line-height: 25px;
+    margin-left: 20px;
+}
+details{
+    margin-left: 20px;
+}
+a{
+    color: khaki;
+}
+a:hover{
+    color: white; 
+    
+}
+#unique{
+        color: khaki;
+}
+button{
+    margin-left: 5px;
+    text-align: center;
+}
+#aa:hover{
+    color: white;
+}
+#bb:hover{
+    color: white;
+}
+#cc:hover{
+    color: white;
+}
+#dd:hover{
+    color: white;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+#back{
+   text-align: center;
+}
+img{
+    vertical-align: middle;
+}
+#imgs{
+    text-align: center;
+}
+figcaption{
+    text-align: center;
+}
