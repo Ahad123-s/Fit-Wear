@@ -1,73 +1,113 @@
-body{
+* {
+    box-sizing: border-box;
+}
+
+body {
     background: #4d004b;
     color: white;
     font-family: "Zalando Sans Expanded", sans-serif;
+    margin: 0;
 }
-hr{
-    border: white solid 3px;
+
+/* Container spacing */
+main {
+    padding: 10px;
 }
-h1{
+
+/* Headings */
+h1 {
     font-family: 'Boldonse', sans-serif;
     color: khaki;
     text-align: center;
+    font-size: 28px;
 }
-h2{
+
+h2 {
     font-family: 'Boldonse', sans-serif;
     color: khaki;
-    padding-left: 1px;
 }
-#top{
+
+/* Text */
+#top {
     text-align: center;
-    font-size: 16px;
-    line-height: 0.1px;
+    font-size: 14px;
+    line-height: normal;
 }
-p{
-    line-height: 25px;
-    margin-left: 20px;
+
+p {
+    line-height: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
-details{
-    margin-left: 20px;
+
+/* Images responsive */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
-a{
+
+/* Image container */
+#imgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Lists */
+#unique {
     color: khaki;
 }
-a:hover{
-    color: white; 
-    
-}
-#unique{
-        color: khaki;
-}
-button{
-    margin-left: 5px;
-    text-align: center;
-}
-#aa:hover{
-    color: white;
-}
-#bb:hover{
-    color: white;
-}
-#cc:hover{
-    color: white;
-}
-#dd:hover{
-    color: white;
-}
-footer{
+
+/* Footer */
+footer {
     text-align: center;
     padding: 10px;
     font-size: 14px;
 }
-#back{
-   text-align: center;
+
+/* Buttons */
+button {
+    margin: 5px;
 }
-img{
-    vertical-align: middle;
+
+/* Links */
+a {
+    color: khaki;
 }
-#imgs{
+
+a:hover {
+    color: white;
+}
+
+/* Back to top */
+#back {
     text-align: center;
 }
-figcaption{
-    text-align: center;
+
+/* HR */
+hr {
+    border: white solid 2px;
+}
+
+/* 📱 MOBILE MEDIA QUERY */
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    #imgs {
+        flex-direction: column;
+        align-items: center;
+    }
 }
