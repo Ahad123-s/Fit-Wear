@@ -16,11 +16,6 @@ img {
     max-width: 100%;
     height: auto; /* keep aspect ratio */
 }
-
-/* Contain image hover scaling */
-#imgs {
-    overflow: hidden;
-}
 hr{
     border: white solid 3px;
 }
