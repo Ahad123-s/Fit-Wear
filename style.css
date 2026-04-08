@@ -13,7 +13,6 @@ body {
 
 /* Ensure images don't exceed their container */
 img {
-    max-width: 100%;
     height: auto; /* keep aspect ratio */
 }
 hr{
