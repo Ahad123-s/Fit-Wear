@@ -2,7 +2,7 @@ body{
     background: linear-gradient(to left, #4d004b, black);
     color: white;
     font-family: "Zalando Sans Expanded", sans-serif;
-    width: 100vw;
+    width: 100%;
 }
 hr{
     border: white solid 3px;
