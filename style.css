@@ -1,5 +1,5 @@
 body{
-    background: #4d004b;
+    background: linear-gradient(to left, #4d004b, black);
     color: white;
     font-family: "Zalando Sans Expanded", sans-serif;
 }
@@ -41,6 +41,12 @@ a:hover{
 button{
     margin-left: 5px;
     text-align: center;
+    color: black;
+    background-color: khaki;
+    border-radius: 50px;
+}
+button:hover{
+    background-color: papayawhip;
 }
 #aa:hover{
     color: white;
@@ -64,6 +70,11 @@ footer{
 }
 img{
     vertical-align: middle;
+    padding: 10px;
+    margin: 5px;
+    
+    border-radius: 30px;
+    
 }
 #imgs{
     text-align: center;
@@ -72,5 +83,12 @@ figcaption{
     text-align: center;
 }
 #imgs img:hover {
-    transform: scale(1.05);
+    transform: scale(1.11);
+}
+#unique :hover{
+    transform: scale(1.005);
+}
+input,textarea,option,select{
+    background-color: papayawhip;
+    
 }
