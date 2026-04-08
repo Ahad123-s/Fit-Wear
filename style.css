@@ -6,6 +6,21 @@ body{
     font-family: "Zalando Sans Expanded", sans-serif;
     overflow-x: hidden;
 }
+/* Prevent horizontal overflow */
+body {
+    overflow-x: hidden;
+}
+
+/* Ensure images don't exceed their container */
+img {
+    max-width: 100%;
+    height: auto; /* keep aspect ratio */
+}
+
+/* Contain image hover scaling */
+#imgs {
+    overflow: hidden;
+}
 hr{
     border: white solid 3px;
 }
