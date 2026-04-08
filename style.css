@@ -4,6 +4,7 @@ body{
     background: linear-gradient(to left, #4d004b, black);
     color: white;
     font-family: "Zalando Sans Expanded", sans-serif;
+    overflow-x: hidden;
 }
 hr{
     border: white solid 3px;
